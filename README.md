@@ -124,6 +124,10 @@ systemctl status plexbot.service
 
 # Ver logs en tiempo real
 journalctl -u plexbot -f
+
+# Reiniciar servio
+sudo systemctl daemon-reload
+sudo systemctl restart plexbot
 ```
 
 ## 📜 Comandos disponibles
